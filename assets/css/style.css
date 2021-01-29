@@ -58,17 +58,17 @@ p {
     background-position: center;
 }
 
-/* removed .float-right */
-main section img {
-    float: left;
-    margin-right: 25px;
-}
-
 /* changed "content" to "main" */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/* removed .float-right */
+main section img {
+    float: left;
+    margin-right: 25px;
 }
 
 /* changed "benifits" to aside" */
@@ -102,7 +102,7 @@ aside img {
 }
 
 /* consolidated ".search-engine-optimization", ".online-reputation-management", & ".social-media-marketing to "section" */
-section {
+main section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -111,11 +111,11 @@ section {
     color: #ffffff;
 }
 /* consolidated ".search-engine-optimization img", ".online-reputation-management img", & ".social-media-marketing img" to "section img" */
-section img {
+main section img {
     max-height: 200px;
 }
 /* consolidated ".search-engine-optimization h2", ".online-reputation-management h2", & ".social-media-marketing h2" to "section h2" */
-section h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
